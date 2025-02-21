@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+/* .container {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+} */
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: #EED6B5;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+    float: left;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: #BF6536;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+    float: left;
+}
+
+.clear-float {
+    clear: both;
+}
